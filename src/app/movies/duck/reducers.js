@@ -17,9 +17,16 @@ const INITIAL_STATE = {
         return{
           ...state, list: [...state.list.slice(0,action.index).concat(...state.list.slice(action.index+1))]
         }
-      case types.UPDATE_MOVIE: {/* oraz aktualizacje :D */}
+     /* case types.UPDATE_MOVIE: {/* oraz aktualizacje :D }
         return{
           ...state, list: [...state.list.slice(0,action.index).concat(action.item).concat(...state.list.slice(action.index+1))]
+        } */
+      case types.UPDATE_MOVIE:
+        const newList = [...state.list];
+        newList[action.index] = action.item; 
+        console.log('newlist', newList) // upewnij się ze wszystko gra (moze coś z akcja nie tak...) 
+        return {
+          ...state, list: newList
         }
       case types.RESET_MOVIES:
         return {
