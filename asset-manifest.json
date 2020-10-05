@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-readux-learning/static/css/main.5f361e03.chunk.css",
+    "main.js": "/react-readux-learning/static/js/main.a1e68c3b.chunk.js",
+    "main.js.map": "/react-readux-learning/static/js/main.a1e68c3b.chunk.js.map",
+    "runtime-main.js": "/react-readux-learning/static/js/runtime-main.1c02254e.js",
+    "runtime-main.js.map": "/react-readux-learning/static/js/runtime-main.1c02254e.js.map",
+    "static/js/2.3a8887ec.chunk.js": "/react-readux-learning/static/js/2.3a8887ec.chunk.js",
+    "static/js/2.3a8887ec.chunk.js.map": "/react-readux-learning/static/js/2.3a8887ec.chunk.js.map",
+    "index.html": "/react-readux-learning/index.html",
+    "precache-manifest.f98766bf3776b7647f52616007ffcec2.js": "/react-readux-learning/precache-manifest.f98766bf3776b7647f52616007ffcec2.js",
+    "service-worker.js": "/react-readux-learning/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/react-readux-learning/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.3a8887ec.chunk.js.LICENSE.txt": "/react-readux-learning/static/js/2.3a8887ec.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1c02254e.js",
+    "static/js/2.3a8887ec.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.a1e68c3b.chunk.js"
+  ]
+}
