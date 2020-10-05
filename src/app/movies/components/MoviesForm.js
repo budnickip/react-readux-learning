@@ -16,8 +16,8 @@ const MoviesForm = (props) => {
 
     const updateMovie = (event) =>{
         event.preventDefault()
-        store.dispatch(actions.update(indexInput.current.value, movieInput.current.value))
-       // props.update(indexInput.current.value, movieInput.current.value)
+       // store.dispatch(actions.update(indexInput.current.value, movieInput.current.value))
+        props.update(indexInput.current.value, movieInput.current.value)
     }
     const resetMovies = () =>{
         //event.preventDefault()
